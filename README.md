@@ -33,12 +33,12 @@ This is a solution to the [Testimonials grid section on Frontend Mentor](https:/
 
 ### Links
 
-- Frontend Mentor solution url:  
-- Live Site URL:
+- Frontend Mentor solution url:   
+- Live Site URL: https://atif-dev.github.io/FEM_Testimonial-Grid-Section/
 
 ## My process
 
-  - Developed by getting multiple things from figma design file(didn't used .jpg design file)
+  - Developed by getting multiple things from figma design file(didn't used .jpg design file).
   - Built with HTML semantic tags and according to figma design file(not pixel perfect).
   - Checked Responsiveness for multiple screens using LT browser.
   - ChatGPT: For knowing things about figma,CSS grid and code review.

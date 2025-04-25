@@ -33,7 +33,7 @@ This is a solution to the [Testimonials grid section on Frontend Mentor](https:/
 
 ### Links
 
-- Frontend Mentor solution url:   
+- Frontend Mentor solution url: https://www.frontendmentor.io/solutions/responsive-testimonial-grid-section-BZi8XXt_nj   
 - Live Site URL: https://atif-dev.github.io/FEM_Testimonial-Grid-Section/
 
 ## My process

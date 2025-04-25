@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: grid;
+	min-height: 100vh;
+	place-content: center;
+	background: #F6F5F6;
+	font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+main{
+	max-width: 1400px;
+	width:80%;
+	margin: 0 auto;
+}
+
+.testimonials{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: 1fr 1fr;
+	gap:2em;
+}
+
+article:nth-child(1){
+	grid-column: 1/3;
+	background: #733FC8;
+	background-image: url(./images/bg-pattern-quotation.svg);
+	background-repeat: no-repeat;
+	background-position: 86.6% 0%;
+    background-size: 97px;
+}
+
+article{
+	border-radius: 0.5em;
+	padding: 1.8em;
+	display: grid;
+    gap: .5em;
+    box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.2474);
+}
+
+article:nth-child(2){
+	background: #676D7E;
+}
+
+article:nth-child(5){
+	grid-column: 4/5;
+	grid-row: 1/3;
+	background: #FFF;
+}
+
+article:nth-child(4){
+	grid-column: 2/4;
+	background: #19202D;
+}
+
+article:nth-child(3){
+	background: #FFF;
+}
+
+.daniel-avatar, .patrick-avatar{
+    border: 3px solid #A775F1;
+}
+
+.user-info{
+	display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.username{
+	font-size: 0.8rem;
+	font-weight: 500;
+	color: white;
+}
+
+.edu-level{
+	font-size: 0.7rem;
+	font-weight: 500;
+}
+
+.testimonial-brief{
+	font-size: 1.25rem;
+}
+
+.testimonial-long{
+	font-size: 0.8rem;
+}
+
+img{
+	border-radius: 2em;
+	width: 7%;
+	min-width: 30px;
+}
+
+.testimonial-brief-daniel, .testimonial-brief-jonathan, .username-patrick, .edu-level-patrick{
+	color: white;
+}
+
+.edu-level, .testimonial-long-daniel{
+	color: #EDE4FF;
+}
+
+.testimonial-long-jonathan{
+	color: #E7EAEE;
+}
+
+.username-kira, .testimonial-brief-kira, .username-jeanette, .testimonial-brief-jeanette{
+	color: #48556A;
+}
+
+.edu-level-kira, .testimonial-long-kira, .edu-level-jeanette, .testimonial-long-jeanette{
+	color: #676D7E;
+}
+
+.testimonial-brief-patrick{
+	color: #CFCFCF;
+}
+
+.testimonial-long-patrick{
+	color: #E7EAEE;
+}
+
+@media only screen and (max-width:1023px){
+	main{
+		margin: 4em auto;
+		max-width: 768px;
+	}
+
+	.testimonials{
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: repeat(4, 1fr);
+	}
+
+	article:nth-child(1), article:nth-child(4), article:nth-child(5){
+		grid-column: 1/3;
+	}
+
+	article:nth-child(5){
+		grid-column: 1/3;
+		grid-row: unset;
+	}
+
+}
+
+@media only screen and (max-width: 600px){
+	.testimonials{
+		grid-template-columns: auto;
+        grid-template-rows: repeat(5, auto);
+	}
+
+	article:nth-child(1){
+		grid-row: 1;
+    	grid-column: 1;
+    	background-image: unset;
+    	background-repeat: unset;
+	}
+
+	article:nth-child(2){
+		grid-row: 2;
+	}
+
+	article:nth-child(3){
+		grid-row: 3;
+	}
+
+	article:nth-child(4){
+		grid-row: 4;
+    	grid-column: 1;
+	}
+
+	article:nth-child(5){
+		grid-row: 5;
+    	grid-column: 1;
+	}
+
+}

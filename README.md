@@ -28,8 +28,8 @@ This is a solution to the [Testimonials grid section on Frontend Mentor](https:/
 
 ### Screenshots
 
-![PC View]()
-![Mobile view]()
+![PC View](https://github.com/atif-dev/FEM_Testimonial-Grid-Section/blob/main/screenshots/Screen%201440%20by%20900.png?raw=true)
+![Mobile view](https://github.com/atif-dev/FEM_Testimonial-Grid-Section/blob/main/screenshots/iPhone%2015%20Pro%20Max.png?raw=true)
 
 ### Links
 
@@ -39,15 +39,15 @@ This is a solution to the [Testimonials grid section on Frontend Mentor](https:/
 ## My process
 
   - Developed by getting multiple things from figma design file(didn't used .jpg design file)
-  - Built with HTML semantic tags(not pixel perfect).
+  - Built with HTML semantic tags and according to figma design file(not pixel perfect).
   - Checked Responsiveness for multiple screens using LT browser.
   - ChatGPT: For knowing things about figma,CSS grid and code review.
 
 ### What I learned
 
   - More than one things about figma design.
-  - about: ```grid-template-columns: auto;```
-  - We can use google light house to check multiple things.
+  - ```grid-template-columns: auto;``` is used to fit content.
+  - We can use google lighthouse to check multiple things.
  
 ### Continued development
 
